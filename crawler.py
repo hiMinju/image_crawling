@@ -63,7 +63,6 @@ class Crawler:
     # download the image
     def downloadImage(self):
         file_no = 0
-        count = 0
 
         print('dirpath: '+self.dirPath)
 
