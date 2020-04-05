@@ -71,7 +71,7 @@ class Crawler:
 
             try:
                 urlretrieve(self.img_src[j], self.dirPath + '/' + str(file_no) + '.jpg')
-                # \를 2개씩으로 바꿈
+                # change '\'
             except:
                 print(str(file_no)+" is error")
                 continue
